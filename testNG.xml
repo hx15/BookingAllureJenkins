@@ -1,0 +1,7 @@
+<suite name="BookingSuite">
+	<test name="CollectReviews" >
+		<classes>
+			<class name="BookingTest.TestWithDP"/>
+    	</classes>
+	</test>
+</suite>
