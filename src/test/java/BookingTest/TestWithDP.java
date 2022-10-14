@@ -27,8 +27,8 @@ public class TestWithDP {
 	ArrayList<ArrayList<String>> outputData = new ArrayList<ArrayList<String>>();
 	@BeforeSuite
 	public void beforeSuite() throws InterruptedException {
-		//driver = OpenBrowsers.openchromeWithOptions();
-		driver = OpenBrowsers.openBrowser("chrome");
+		driver = OpenBrowsers.openchromeWithOptions();
+		//driver = OpenBrowsers.openBrowser("chrome");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		outputHeaders.add("location");
 		outputHeaders.add("check-in");
